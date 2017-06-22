@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:columnCount="3"
+    tools:context="com.example.diogo.andorsoundboard.MainActivity">
+
+    <Button
+        android:id="@+id/button_combate_1p"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:onClick="combat1PSound"
+        android:text="Combate Solo"
+        android:textSize="12dp"/>
+
+    <Button
+        android:id="@+id/button_combate_coop"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:onClick="combatCoopSound"
+        android:text="Combate CoOp"
+        android:textSize="12dp"/>
+
+    <Button
+        android:id="@+id/button_combate_thorald"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:onClick="combatThoraldSound"
+        android:text="Combate Thorald"
+        android:textSize="10dp"/>
+
+    <Button
+        android:id="@+id/button_vitoria"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:onClick="victorySound"
+        android:background="#00d83a"
+        android:text="Vitória" />
+
+    <Button
+        android:id="@+id/button_derrota"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:background="#D13131"
+        android:onClick="derrotaSound"
+        android:text="Derrota" />
+
+    <Button
+        android:id="@+id/button_poco"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:onClick="pocoSound"
+        android:text="Poço" />
+
+    <Button
+        android:id="@+id/button_nevoa"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:onClick="nevoaSound"
+        android:text="Névoa" />
+
+    <Button
+        android:id="@+id/button_thorald"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_column="2"
+        android:layout_row="2"
+        android:onClick="thoraldSound"
+        android:text="Thorald" />
+
+    <Button
+        android:id="@+id/button_bruxa"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_column="2"
+        android:layout_row="5"
+        android:onClick="bruxaSound"
+        android:background="@drawable/bruxa"
+        android:text="Bruxa"
+        android:textColor="#ffd800"/>
+
+    <Button
+        android:id="@+id/button_amanhecer"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:onClick="amanhecerSound"
+        android:text="Amanhecer" />
+
+    <Button
+        android:id="@+id/button_falcao"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:onClick="falcaoSound"
+        android:text="Falcão" />
+
+    <Button
+        android:id="@+id/button_lingua"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_column="2"
+        android:layout_row="3"
+        android:onClick="linguaSound"
+        android:text="Língua de Fogo"
+        android:textSize="12dp"/>
+
+    <Button
+        android:id="@+id/button_boss"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:background="#D13131"
+        android:onClick="bossSound"
+        android:text="Boss"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/button_dragon"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_column="2"
+        android:layout_row="4"
+        android:background="#D13131"
+        android:onClick="dragonSound"
+        android:text="DRAGÃO!"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/button_mercador"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_column="0"
+        android:layout_row="5"
+        android:background="@drawable/mercador"
+        android:onClick="mercadorSound"
+        android:text="mercador" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_column="2"
+        android:layout_row="7"
+        android:onClick="stopSound"
+        android:text="Stop" />
+
+</GridLayout>
