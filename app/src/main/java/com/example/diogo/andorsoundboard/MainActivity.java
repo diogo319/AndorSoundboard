@@ -14,8 +14,6 @@ public class MainActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mp = MediaPlayer.create(getBaseContext(), R.raw.combat_start);
-        mp.start();
     }
 
     public void victorySound(View view){
@@ -161,7 +159,9 @@ public class MainActivity extends AppCompatActivity{
     }
 
     public void stopSound(View view){
-        mp.stop();
+        if(hasPlayed){
+            mp.stop();
+        }
     }
 
     //TODO
